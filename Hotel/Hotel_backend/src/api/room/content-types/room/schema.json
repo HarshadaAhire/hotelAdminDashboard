@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rooms",
+  "info": {
+    "singularName": "room",
+    "pluralName": "rooms",
+    "displayName": "Room"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "facilities": {
+      "type": "text"
+    },
+    "bookingId": {
+      "type": "biginteger"
+    },
+    "capacity": {
+      "type": "integer"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "bedType": {
+      "type": "string"
+    },
+    "roomNumber": {
+      "type": "string"
+    },
+    "availableDates": {
+      "type": "date"
+    }
+  }
+}
